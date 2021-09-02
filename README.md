@@ -7,3 +7,5 @@
 3- 3Column-preview-card-component
 
 4- Profile card component
+
+5- Social-proof-section
