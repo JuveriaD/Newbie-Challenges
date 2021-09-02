@@ -1,7 +1,7 @@
-# challenge-2
+# stats-preview-card-component
 frontend-mentor challenges-
  challenge 2 -
-stats-preview-card-component :: using flexbox
+ :: using flexbox
 
 
 📌live site URL- 
