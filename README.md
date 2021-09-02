@@ -2,4 +2,6 @@
 # Frontend Mentor Challenges for newbie's completed by me
 1- Order Summary Card Component
 
-2-stats-preview-card-component
+2- Stats-preview-card-component
+
+3- 3Column-preview-card-component
