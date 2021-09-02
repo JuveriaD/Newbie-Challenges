@@ -3,9 +3,7 @@
   padding: 0;
 }
 
-/* 700 bold */
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
-/* font-family: 'Spartan', sans-serif; */
 
 /* 500 bold */
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap");
@@ -13,8 +11,6 @@
 
 /* 400 bold */
 @import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
-/* font-family: 'Spartan', sans-serif; */
-
 :root {
   --Very-Dark-Magenta: hsl(300, 43%, 22%);
   --Soft-Pink: hsl(333, 80%, 67%);
@@ -24,7 +20,8 @@
 }
 body {
   font-size: 15px;
-  height: 100vh;
+  height: 90%;
+  width: 100%;
   border: 5px solid rgb(4, 247, 234);
   display: flex;
   flex-direction: column;
@@ -35,7 +32,6 @@ body {
 }
 main {
   border: 2px solid red;
-  height: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,25 +42,102 @@ main {
 .main-container {
   border: 2px solid blue;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  align-items: center;
 }
 .paradiv {
   border: 2px solid green;
   width: 370px;
+  color: var(--Dark-Grayish-Magenta);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 h1 {
   border: 2px solid yellow;
-  width: 200px;
+  width: 220px;
+  color: var(--Very-Dark-Magenta);
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+p {
+  border: 2px solid rgb(18, 231, 46);
 }
 .rated {
   border: 2px solid plum;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+#star {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  color: var(--Very-Dark-Magenta);
+}
+.five-star {
+  margin-bottom: 4px;
+}
+#five-star1 {
+  margin-left: 0px;
+  padding: 5px;
+  border: 2px solid;
+}
+#five-star2 {
+  margin-left: 26px;
+  padding: 5px;
+  border: 2px solid;
+}
+#five-star3 {
+  margin-left: 56px;
+  padding: 5px;
+  border: 2px solid;
+}
+
 .container {
   border: 2px solid darkviolet;
+  border: 2px solid darkviolet;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid brown;
 }
 footer {
   border: 2px solid orange;
+}
+@media screen and (max-width: 792px) and (min-width: 200px) {
+  .paradiv {
+    align-items: center;
+    width: auto;
+  }
+  p {
+    width: 255px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .rated {
+    align-items: center;
+  }
+  #star {
+    width: 100px;
+  }
+  #five-star1 {
+    margin-left: 0px;
+  }
+  #five-star2 {
+    margin-left: 0px;
+  }
+  #five-star3 {
+    margin-left: 0px;
+  }
 }
