@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: hsl(185, 75%, 39%);
+  --big-font: hsl(229, 23%, 23%);
+  --medium-font: hsl(227, 10%, 46%);
+  --small-font: hsl(0, 0%, 59%);
+}
+
+body {
+  /* background-color: var(--bg-color); */
+  /* border: 2px solid chocolate; */
+  height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg), var(--bg-color);
+  background-position: right 51vw bottom 37vh, left 50vw top 45vh;
+  background-repeat: no-repeat;
+}
+main {
+  /* border: 2px solid blueviolet; */
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 400px;
+  width: 350px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.victor {
+  display: flex;
+  flex-flow: column wrap;
+}
+.victor img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.name img {
+  border-radius: 50%;
+
+  height: 90px;
+  width: 90px;
+  border: 5px solid #fff;
+  background-color: #fff;
+}
+.name {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 45px;
+}
+#sixnum {
+  color: var(--medium-font);
+  padding: 5px;
+  font-weight: 400;
+  font-size: 16px;
+}
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+}
+p  {
+  color: var(--medium-font);
+  font-size: 14px;
+}
+span #stat {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.first {
+  display: flex;
+  padding: 20px 0px 0px 8px;
+  /* border: 2px solid yellow; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.second {
+  display: flex;
+  padding: 2px 7px 0px 0px;
+  /* border: 2px solid red; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  font-size: 11px;
+  color: var(--small-font);
+}
+footer {
+  padding: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

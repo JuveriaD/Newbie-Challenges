@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: rgb(202 212 241); */
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+.bgcontainer {
+  display: inline-block;
+
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 439px;
+  width: 100vw;
+  /* border: 2px solid blue; */
+}
+
+#hero_img {
+  bottom: 400px;
+  position: absolute;
+  height: 180px;
+  width: 370px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: rgb(255, 255, 255);
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 370px;
+  top: 330px;
+  position: absolute;
+  left: 35%;
+  text-align: center;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  box-shadow: rgb(214 225 255) 0px 18px 11px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-weight: 900;
+  /* font-family: "Red Hat Display", sans-serif; */
+}
+p {
+  display: inline-block;
+  width: 294px;
+  font-size: 16px;
+  margin-top: 12px;
+  /* border: 2px solid blueviolet; */
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.music {
+  /* border: 2px solid greenyellow; */
+  position: absolute;
+  width: 280px;
+  top: 42%;
+  height: 80px;
+  border-radius: 15px;
+  background-color: hsl(224deg 75% 97%);
+  margin-top: 11px;
+}
+#music_img {
+  left: 19px;
+  width: 35px;
+  position: absolute;
+  top: 24px;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+  /* border: 2px solid rgb(185, 141, 58); */
+  display: block;
+  width: 100px;
+  top: 15px;
+  position: relative;
+  left: 66px;
+  font-size: 16px;
+}
+.music #alpha {
+  font-weight: 700;
+}
+.music #num {
+  color: hsl(224, 23%, 55%);
+}
+span {
+  top: 28px;
+  position: absolute;
+  left: 75%;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #3829e0;
+  font-weight: bolder;
+}
+span:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(245deg 94% 72%);
+}
+
+.blue_btn {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-top: 130px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 3px 17px 9px #e0e8ff;
+}
+
+.blue_btn:hover {
+  cursor: pointer;
+  background-color: hsl(245deg 94% 72%);
+}
+.cancle_btn {
+  background: none;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  color: gray;
+  font-weight: bolder;
+}
+.cancle_btn:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 300px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 200px) and (max-width: 375px) {
+  .container {
+    left: 4%;
+    height: 310px;
+    width: 285px;
+    top: 150px;
+  }
+  .bgcontainer {
+    height: 0px;
+  }
+
+  #hero_img {
+    bottom: 310px;
+    height: 140px;
+    width: 280px;
+  }
+
+  h1 {
+    margin: 10px 0px 0px 0px;
+  }
+
+  p {
+    width: 263px;
+  }
+
+  #music_img {
+    left: 16px;
+    width: 32px;
+    top: 16px;
+  }
+  .music {
+    width: 230px;
+    top: 45%;
+    height: 70px;
+  }
+  span {
+    top: 21px;
+    left: 75%;
+    cursor: pointer;
+  }
+  span:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245deg 94% 72%);
+  }
+
+  li {
+    width: 96px;
+    top: 15px;
+    left: 53px;
+  }
+  .btn {
+    position: relative;
+    margin: 80px 0px 0px 0px;
+    cursor: pointer;
+  }
+  .blue_btn {
+    margin: 30px 0px 0px 0px;
+    width: 248px;
+    padding: 7px;
+    height: 32px;
+    box-shadow: 3px 17px 9px #e0e8ff;
+  }
+
+  .cancle_btn {
+    margin-top: 17px;
+  }
+  .attribution {
+    font-size: 7px;
+    position: relative;
+    width: 295px;
+    margin-top: 500px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 675px) {
+  .container {
+    left: 11%;
+    height: 315px;
+    width: 320px;
+    top: 190px;
+  }
+  .bgcontainer {
+    height: 0px;
+  }
+
+  #hero_img {
+    bottom: 315px;
+    width: 320px;
+  }
+
+  h1 {
+    margin: 14px 0px 0px 0px;
+  }
+
+  p {
+    width: 265px;
+  }
+
+  #music_img {
+    left: 12px;
+    width: 35px;
+    top: 18px;
+  }
+
+  span {
+    top: 25px;
+    left: 75%;
+    cursor: pointer;
+  }
+  span:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(245deg 94% 72%);
+  }
+
+  .music {
+    width: 260px;
+    top: 42%;
+    height: 75px;
+  }
+  li {
+    width: 94px;
+    top: 12px;
+    left: 55px;
+  }
+  .btn {
+    right: 12px;
+    margin: 24px 0px 0px 0px;
+    cursor: pointer;
+  }
+  .blue_btn {
+    margin: 75px 0px 0px 0px;
+    width: 285px;
+    padding: 7px;
+    height: 32px;
+    box-shadow: 3px 17px 9px #e0e8ff;
+  }
+
+  .cancle_btn {
+    margin-top: 20px;
+  }
+  .attribution {
+    font-size: 7px;
+    position: relative;
+    width: 500;
+    margin-top: 500px;
+  }
+}
