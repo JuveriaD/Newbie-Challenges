@@ -5,3 +5,5 @@
 2- Stats-preview-card-component
 
 3- 3Column-preview-card-component
+
+4- Profile card component
