@@ -129,7 +129,7 @@ h1 {
   /* border: 2px dashed red; */
 }
 .pinkline {
-  margin-left: 5px;
+  color: var(--Soft-Pink);
 }
 
 #box2 {
