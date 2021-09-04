@@ -57,6 +57,7 @@ h1 {
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
   font-family: "Spartan", sans-serif;
+  margin-bottom: 8px;
 }
 .description {
   /* border: 2px solid rgb(18, 231, 46); */
