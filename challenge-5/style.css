@@ -81,7 +81,7 @@ h1 {
 .five-star {
   margin-bottom: 10px;
   background-color: var(--Light-Grayish-Magenta);
-  padding: 6px 12px;
+  padding: 12px 12px;
   border-radius: 5px;
   /* font-family: "Spartan", sans-serif; */
   font-weight: 700;
