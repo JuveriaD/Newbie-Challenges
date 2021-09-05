@@ -11,7 +11,6 @@
   --White: hsl(0, 0%, 100%);
 }
 body {
-  font-size: 15px;
   height: 90%;
   /* border: 5px solid rgb(4, 247, 234); */
   display: flex;
@@ -23,6 +22,10 @@ body {
   background-image: url(images/bg-pattern-top-desktop.svg),
     url(images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: top left, bottom right;
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
 }
 main {
   /* border: 2px solid red; */
@@ -56,13 +59,13 @@ h1 {
   width: 260px;
   color: var(--Very-Dark-Magenta);
   font-weight: 700;
-  font-family: "Spartan", sans-serif;
+  /* font-family: "Spartan", sans-serif; */
   margin-bottom: 8px;
 }
 .description {
   /* border: 2px solid rgb(18, 231, 46); */
   width: 490px;
-  font-family: "Spartan", sans-serif;
+  /* font-family: "Spartan", sans-serif; */
   font-weight: 400;
 }
 .rated {
@@ -70,6 +73,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 390px;
 }
 #star {
   color: var(--Very-Dark-Magenta);
@@ -77,9 +81,9 @@ h1 {
 .five-star {
   margin-bottom: 10px;
   background-color: var(--Light-Grayish-Magenta);
-  padding: 10px 15px;
+  padding: 6px 12px;
   border-radius: 5px;
-  font-family: "Spartan", sans-serif;
+  /* font-family: "Spartan", sans-serif; */
   font-weight: 700;
 }
 #five-star1 {
@@ -103,13 +107,19 @@ h1 {
   width: 100%;
 }
 .box {
-  width: 250px;
+  width: 280px;
   /* border: 2px solid brown; */
   margin-right: 2%;
-  padding: 19px 17px 30px 14px;
+  padding: 28px 14px 25px 22px;
   background-color: var(--Very-Dark-Magenta);
   color: var(--White);
   border-radius: 10px;
+}
+.paragraph {
+  color: var(--White);
+  font-weight: 400;
+  /* border: 2px dotted red; */
+  width: 280px;
 }
 .info {
   display: flex;
@@ -127,6 +137,7 @@ h1 {
 }
 .names_id {
   /* border: 2px dashed red; */
+  font-weight: 500;
 }
 .pinkline {
   color: var(--Soft-Pink);
@@ -140,12 +151,16 @@ h1 {
 }
 footer {
   /* border: 2px solid orange; */
+  margin: 9px 0px;
+  font-size: 11px;
 }
-@media screen and (max-width: 600px) and (min-width: 200px) {
+@media screen and (max-width: 900px) and (min-width: 200px) {
   body {
     background-image: url(images/bg-pattern-top-mobile.svg),
       url(images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: top left, bottom right;
   }
   main {
     height: auto;
@@ -154,6 +169,7 @@ footer {
   .paradiv {
     align-items: center;
     width: auto;
+    margin: 10px 0px;
   }
   .description {
     width: 340px;
@@ -167,6 +183,7 @@ footer {
   }
   .rated {
     align-items: center;
+    width: auto;
   }
   .five-star {
     display: flex;
@@ -198,6 +215,9 @@ footer {
   }
   .box {
     margin-right: 0%;
-    margin-bottom: 7%;
+    margin-top: 9%;
+  }
+  #box3 {
+    margin-top: 5%;
   }
 }
