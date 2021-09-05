@@ -75,7 +75,7 @@ h1 {
   flex-wrap: wrap;
   width: 390px;
 }
-#star {
+.star {
   color: var(--Very-Dark-Magenta);
 }
 .five-star {
@@ -191,7 +191,7 @@ footer {
     align-content: center;
     justify-content: center;
   }
-  #star {
+  .star {
     width: 280px;
     /* border: 2px solid red; */
     display: flex;
