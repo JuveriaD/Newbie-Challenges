@@ -1,4 +1,4 @@
-# Frontend Mentor Challenges for newbie's completed by me
+# Frontend Mentor Challenges for newbie's 
 
 [Challenge-1 : Order Summary Card Component](https://juveriad.github.io/Newbie-Challenges/challenge-1/)
 
