@@ -17,11 +17,11 @@ body {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   border: 2px solid var(--Red);
-  height: 100vh;
+  height: 100%;
 }
 .maincontainer {
-  border: 2px solid paleturquoise;
-  height: 100vh;
+  border: 2px solid #083535;
+  /* height: 100%; */
 }
 .para_heading {
   border: 2px solid brown;
@@ -48,21 +48,40 @@ h1 {
 }
 .box_container {
   border: 2px solid peru;
-  border: 2px solid peru;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
+  /* align-content: center; */
   justify-content: center;
-  align-items: center;
-  height: auto;
+  /* align-items: center; */
+  /* height: auto; */
 }
 .box {
-  border: 2px dashed yellow;
+  border: 2px dashed #2b2b26;
   width: 300px;
-  width: 200px;
-  height: 150px;
+  height: 200px;
+  margin: 14px;
+  /* margin: 0px 0px 0px 23px; */
 }
+#box1 {
+  margin-top: 12%;
+}
+#box2 {
+  /* margin-top: -22%; */
+  margin-top: 3%;
+}
+#box3 {
+  order: 2;
+  /* position: absolute;
+  top: 500px; */
+  margin-top: -9%;
+}
+#box4 {
+  /* margin-top: 16%; */
+  /* margin-left: -22%; */
+  margin-top: 12%;
+}
+
 span {
   font-weight: 600;
 }
