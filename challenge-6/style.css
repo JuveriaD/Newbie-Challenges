@@ -26,6 +26,14 @@ body {
 .para_heading {
   border: 2px solid brown;
   padding: 3px 5px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 #text1 {
   font-size: 30px;
@@ -36,8 +44,25 @@ h1 {
 }
 #text2 {
   border: 2px dashed yellowgreen;
+  width: 500px;
 }
-
+.box_container {
+  border: 2px solid peru;
+  border: 2px solid peru;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.box {
+  border: 2px dashed yellow;
+  width: 300px;
+  width: 200px;
+  height: 150px;
+}
 span {
   font-weight: 600;
 }
