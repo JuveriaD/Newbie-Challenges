@@ -82,6 +82,14 @@ span {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+@media screen and (min-width: 1240px) {
+  #box3 {
+    order: 2;
+    margin-top: -7%;
+    margin-right: 13%;
+    margin-left: 14%;
+  }
+}
 @media screen and (max-width: 1009px) and (min-width: 830px) {
   .box {
     margin: 0px 0px 0px 8px;
@@ -100,19 +108,28 @@ span {
     margin-top: 12%;
   }
   #box3 {
-    margin-top: 1%;
+    /* margin-top: 1%; */
+    margin-top: 12%;
   }
   #box4 {
-    margin-top: 12%;
+    margin-top: 2%;
+    order: 2;
   }
 }
 @media screen and (max-width: 659px) and (min-width: 500px) {
+  #box3 {
+    margin-top: 1%;
+    /* margin-top: 12%; */
+  }
   #box4 {
     margin-top: 1%;
   }
 }
 
 @media screen and (max-width: 499px) {
+  .box {
+    height: 250px;
+  }
   #text1 {
     font-size: 22px;
   }
