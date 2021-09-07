@@ -58,6 +58,9 @@ h1 {
   height: 200px;
   margin: 0px 0px 0px 12px;
 }
+img {
+  margin: 18% 74%;
+}
 #box1 {
   margin-top: 12%;
 }
@@ -102,10 +105,20 @@ span {
 @media screen and (max-width: 829px) and (min-width: 500px) {
   .box {
     width: 200px;
-    height: 300px;
+    height: 250px;
+  }
+  img {
+    margin: 45% 60%;
   }
   #box2 {
     margin-top: 12%;
+  }
+  /* img [alt="team builders"] {
+    margin-top: 37%;
+  } */
+
+  img .team-builder-img {
+    margin: top 37%;
   }
   #box3 {
     /* margin-top: 1%; */
