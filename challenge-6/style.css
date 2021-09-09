@@ -51,6 +51,7 @@ body {
 #text1 {
   font-size: 30px;
   /* border: 2px dotted blueviolet; */
+  color: var(--Very-Dark-Blue);
 }
 h1 {
   /* border: 2px solid fuchsia; */
@@ -74,7 +75,7 @@ h1 {
   height: 217px;
   margin: 0px 0px 0px 38px;
   box-shadow: 5px 6px 22px var(--Grayish-Blue);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .smalltext {
   color: var(--Grayish-Blue);
@@ -107,6 +108,7 @@ img {
 
 span {
   font-weight: 600;
+  font-size: 18px;
 }
 .textspace {
   margin: 12px 0px 0px 17px;
@@ -118,12 +120,14 @@ span {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
 @media screen and (min-width: 1492px) {
   #box3 {
     margin-top: -11%;
     margin-right: 1%;
   }
 }
+
 @media screen and (max-width: 1130px) and (min-width: 1040px) {
   #box1 {
     margin-top: 3%;
