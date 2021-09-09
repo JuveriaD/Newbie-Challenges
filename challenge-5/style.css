@@ -178,9 +178,9 @@ footer {
   main {
     height: auto;
   }
-  /* .main-container {
+  .main-container {
     margin-top: 28%;
-  } */
+  }
   .paradiv {
     align-items: center;
     width: auto;
@@ -237,7 +237,7 @@ footer {
     margin-top: 5%;
   }
   footer {
-    margin: 28% 6px;
+    margin: 24% 6px;
   }
 }
 @media screen and (max-width: 430px) {
