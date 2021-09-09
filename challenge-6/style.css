@@ -58,6 +58,7 @@ h1 {
 #text2 {
   /* border: 2px dashed yellowgreen; */
   width: 500px;
+  color: var(--Grayish-Blue);
 }
 .box_container {
   /* border: 2px solid peru; */
