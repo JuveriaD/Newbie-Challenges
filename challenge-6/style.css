@@ -75,6 +75,9 @@ h1 {
   box-shadow: 5px 6px 22px var(--Grayish-Blue);
   border-radius: 5px;
 }
+.smalltext {
+  color: var(--Grayish-Blue);
+}
 
 img {
   padding: 15% 5% 4% 70%;
