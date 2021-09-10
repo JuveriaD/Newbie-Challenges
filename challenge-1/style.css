@@ -298,7 +298,7 @@ span:hover {
 .container {
   position: relative;
   animation-name: example;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
 }
 
@@ -310,6 +310,9 @@ span:hover {
   /* 75% {
     top: 50%;
   } */
+  50% {
+    top: 70%;
+  }
   100% {
     /* left: 30%; */
     top: 75%;
