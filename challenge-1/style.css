@@ -299,6 +299,7 @@ span:hover {
   position: relative;
   animation-name: example;
   animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 @keyframes example {
@@ -306,10 +307,12 @@ span:hover {
     /* left: 40%; */
     top: 0%;
   }
-
+  /* 75% {
+    top: 50%;
+  } */
   100% {
     /* left: 30%; */
-    top: 100%;
+    top: 75%;
   }
 }
 
