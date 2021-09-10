@@ -298,13 +298,13 @@ span:hover {
 .container {
   position: relative;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 @keyframes example {
   0% {
     /* left: 40%; */
-    top: 20%;
+    top: 0%;
   }
 
   100% {
