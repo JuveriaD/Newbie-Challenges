@@ -295,3 +295,21 @@ span:hover {
     margin-top: 500px;
   }
 }
+.container {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    /* left: 40%; */
+    top: 20%;
+  }
+
+  100% {
+    /* left: 30%; */
+    top: 50%;
+  }
+}
+
