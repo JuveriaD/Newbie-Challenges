@@ -1,0 +1,47 @@
+@media screen and (max-width: 630px) {
+  body {
+    .block-container {
+      flex-direction: column;
+      width: auto;
+
+      #block1 {
+        width: 400px;
+        margin: 5% 5% 0% 0%;
+        .parablock1 {
+          border: 2px solid red;
+          margin: 8% 4% 0% 2%;
+          width: auto;
+        }
+        .para1 {
+          width: auto;
+        }
+      }
+      #block2 {
+        width: 400px;
+        margin: 0% 0% 0% 0%;
+      }
+      #block3 {
+        margin: 0% 0% 5% 0%;
+        width: 400px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 445px) {
+  body {
+    .block-container {
+      #block1 {
+        width: 335px;
+        margin: 7% 5% 0% 0%;
+      }
+      #block2 {
+        width: 335px;
+        margin: 0% 5% 0% 0%;
+      }
+      #block3 {
+        margin: 0% 5% 4% 0%;
+        width: 335px;
+      }
+    }
+  }
+}
