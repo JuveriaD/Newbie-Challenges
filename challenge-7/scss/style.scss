@@ -1,0 +1,63 @@
+@import "config";
+@import "utilities";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.block-container {
+  // h1 is hidden
+  h1 {
+    display: none;
+  }
+  .block {
+    height: 300px;
+    width: 300px;
+  }
+  #block1 {
+    width: 700px;
+    height: 245px;
+    border: 2px solid rgb(255, 178, 191);
+    background-color: #fff;
+    margin: 5% 5% 0% 5%;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h2 {
+      color: $Cyan;
+      padding: 0px 0px 14px 0px;
+    }
+    h3 {
+      color: $Bright-Yellow;
+      // padding: top right bottom left
+      padding: 0px 0px 9px 0px;
+    }
+    .para1 {
+      color: $Grayish-Blue;
+      line-height: 1.5;
+      width: 500px;
+    }
+    .parablock1 {
+      border: 2px solid red;
+      margin: 8% 0% 0% 7%;
+      width: 480px;
+    }
+  }
+  #block2 {
+    border: 2px solid darkmagenta;
+    margin: 0% 0% 5% 5%;
+    background-color: $Cyan;
+    h1 {
+      display: inline-block;
+    }
+  }
+  #block3 {
+    border: 2px solid darkorchid;
+    margin: 0% 5% 5% 0%;
+    width: 325px;
+    background-color: lighten($Cyan, 10%);
+  }
+}
+@import "mobile";
