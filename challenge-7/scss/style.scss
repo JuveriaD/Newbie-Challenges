@@ -3,9 +3,7 @@
 
 .block-container {
   // h1 is hidden
-  h1 {
-    display: none;
-  }
+
   .block {
     height: 300px;
     width: 350px;
@@ -17,7 +15,7 @@
 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    h2 {
+    h1 {
       color: $Cyan;
       padding: 0px 0px 14px 0px;
     }
@@ -44,10 +42,12 @@
       display: inline-block;
       color: $bg-color;
       padding: 5% 3% 4% 0%;
+      font-size: 25px;
     }
-    h3 {
+    h2 {
       color: $bg-color;
       padding: 5% 5% 5% 0%;
+      font-size: 19px;
     }
     span {
       color: lighten($Cyan, 40%);
@@ -75,9 +75,10 @@
 
     .parablock3 {
       margin: 10% 32% 0% 10%;
-      h3 {
+      h2 {
         color: $bg-color;
         padding: 5% 5% 5% 0%;
+        font-size: 19px;
       }
       .para3 {
         color: lighten($Cyan, 50%);
