@@ -1,5 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 2px solid $border-color;
+}
 body {
   background-color: $Light-Gray;
+  font-family: $font-stack;
   main {
     display: flex;
     flex-direction: column;
@@ -10,8 +17,8 @@ body {
   .block-container {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid blue;
-    width: 700px;
+    width: 660px;
+    margin: 5% 5%;
   }
   footer {
     .attribution {
@@ -19,7 +26,7 @@ body {
       text-align: center;
     }
     .attribution a {
-      color: hsl(228, 45%, 44%);
+      color: $blue;
     }
   }
 }
