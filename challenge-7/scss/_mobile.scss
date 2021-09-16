@@ -6,22 +6,38 @@
 
       #block1 {
         width: 400px;
-        margin: 5% 0% 0% 0%;
+        height: auto;
+
         .parablock1 {
-          margin: 8% 4% 0% 2%;
+          margin: 8% 10% 8% 8%;
           width: auto;
         }
         .para1 {
           width: auto;
+          line-height: 1.7;
         }
       }
       #block2 {
         width: 400px;
-        margin: 0% 0% 0% 0%;
+        height: auto;
+        border-bottom-left-radius: 0px;
+        .parablock2 {
+          margin: 10% 8% 6% 8%;
+        }
+        input[value="Sign Up"] {
+          width: 300px;
+          margin: 5% 4% 5% 0%;
+          padding: 5% 5%;
+          font-size: 17px;
+        }
       }
       #block3 {
-        margin: 0% 0% 5% 0%;
+        border-bottom-left-radius: 10px;
         width: 400px;
+        height: 300px;
+        .parablock3 {
+          margin: 14% 32% 0% 8%;
+        }
       }
     }
   }
@@ -31,15 +47,19 @@
     .block-container {
       #block1 {
         width: 335px;
-        margin: 7% 5% 0% 0%;
       }
       #block2 {
         width: 335px;
-        margin: 0% 5% 0% 0%;
+        input[value="Sign Up"] {
+          width: 270px;
+          margin: 5% 5% 5% 0%;
+          padding: 5% 5%;
+          font-size: 16px;
+        }
       }
       #block3 {
-        margin: 0% 5% 4% 0%;
         width: 335px;
+        height: 300px;
       }
     }
   }
