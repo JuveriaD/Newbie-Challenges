@@ -38,7 +38,7 @@
     background-color: $Cyan;
     border-bottom-left-radius: 10px;
     .parablock2 {
-      margin: 14% 6% 0% 14%;
+      margin: 10% 6% 0% 14%;
     }
     h1 {
       display: inline-block;
@@ -74,14 +74,14 @@
     border-bottom-right-radius: 10px;
 
     .parablock3 {
-      margin: 14% 32% 0% 10%;
+      margin: 10% 32% 0% 10%;
       h3 {
         color: $bg-color;
         padding: 5% 5% 5% 0%;
       }
       .para3 {
         color: lighten($Cyan, 50%);
-        padding: 6% 0% 0% 0%;
+        padding: 2% 0% 0% 0%;
         line-height: 1.5;
       }
     }
