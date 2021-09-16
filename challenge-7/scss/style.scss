@@ -1,0 +1,92 @@
+@import "config";
+@import "utilities";
+
+.block-container {
+  // h1 is hidden
+
+  .block {
+    height: 300px;
+    width: 350px;
+  }
+  #block1 {
+    width: 700px;
+    height: 250px;
+    background-color: $bg-color;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    h1 {
+      color: $Cyan;
+      padding: 0px 0px 14px 0px;
+    }
+    h2 {
+      color: $Bright-Yellow;
+      // padding: top right bottom left
+      padding: 0px 0px 9px 0px;
+      font-size: 19px;
+    }
+    .para1 {
+      color: $Grayish-Blue;
+      line-height: 1.5;
+    }
+    .parablock1 {
+      margin: 8% 9% 0% 7%;
+    }
+  }
+  #block2 {
+    background-color: $Cyan;
+    border-bottom-left-radius: 10px;
+    .parablock2 {
+      margin: 10% 6% 0% 14%;
+    }
+    h1 {
+      display: inline-block;
+      color: $bg-color;
+      padding: 5% 3% 4% 0%;
+      font-size: 25px;
+    }
+    h2 {
+      color: $bg-color;
+      padding: 5% 5% 5% 0%;
+      font-size: 19px;
+    }
+    span {
+      color: lighten($Cyan, 40%);
+    }
+    .para2 {
+      color: $bg-color;
+      padding: 0% 0% 6% 0%;
+    }
+    input[value="Sign Up"] {
+      color: #fff;
+      width: 245px;
+      margin: 7% 0% 5% 0%;
+      padding: 5% 5%;
+      background-color: $Bright-Yellow;
+      border-radius: 5px;
+      font-size: 17px;
+      border-style: none;
+      box-shadow: 2px 4px 16px 0px #9b9999d2;
+    }
+  }
+  #block3 {
+    width: 345px;
+    background-color: lighten($Cyan, 10%);
+    border-bottom-right-radius: 10px;
+
+    .parablock3 {
+      margin: 10% 32% 0% 10%;
+      h2 {
+        color: $bg-color;
+        padding: 5% 5% 5% 0%;
+        font-size: 19px;
+      }
+      .para3 {
+        color: lighten($Cyan, 50%);
+        padding: 2% 0% 0% 0%;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+@import "mobile";
