@@ -7,8 +7,8 @@
     display: none;
   }
   .block {
-    height: 300px;
-    width: 330px;
+    height: 350px;
+    width: 350px;
   }
   #block1 {
     width: 700px;
@@ -37,13 +37,55 @@
   }
   #block2 {
     background-color: $Cyan;
+    border-bottom-left-radius: 10px;
+    .parablock2 {
+      margin: 14% 6% 0% 14%;
+    }
     h1 {
       display: inline-block;
+      color: $bg-color;
+      padding: 5% 3% 4% 0%;
+    }
+    h3 {
+      color: $bg-color;
+      padding: 5% 5% 5% 0%;
+    }
+    span {
+      color: lighten($Cyan, 40%);
+    }
+    .para2 {
+      color: $bg-color;
+      padding: 0% 0% 6% 0%;
+    }
+    input[value="Sign Up"] {
+      color: #fff;
+      width: 245px;
+      margin: 7% 0% 5% 0%;
+      padding: 5% 5%;
+      background-color: $Bright-Yellow;
+      border-radius: 5px;
+      font-size: 17px;
+      border-style: none;
+      box-shadow: 2px 4px 16px 0px #9b9999d2;
     }
   }
   #block3 {
-    width: 325px;
+    width: 345px;
     background-color: lighten($Cyan, 10%);
+    border-bottom-right-radius: 10px;
+
+    .parablock3 {
+      margin: 14% 32% 0% 10%;
+      h3 {
+        color: $bg-color;
+        padding: 5% 5% 5% 0%;
+      }
+      .para3 {
+        color: lighten($Cyan, 50%);
+        padding: 6% 0% 0% 0%;
+        line-height: 1.5;
+      }
+    }
   }
 }
 @import "mobile";
