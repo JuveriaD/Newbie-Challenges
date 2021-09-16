@@ -1,4 +1,4 @@
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) {
   body {
     .block-container {
       flex-direction: column;
@@ -6,9 +6,8 @@
 
       #block1 {
         width: 400px;
-        margin: 5% 5% 0% 0%;
+        margin: 5% 0% 0% 0%;
         .parablock1 {
-          border: 2px solid red;
           margin: 8% 4% 0% 2%;
           width: auto;
         }
