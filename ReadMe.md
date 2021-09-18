@@ -13,3 +13,5 @@
 [Challenge-6 : four-card-feature-section-master](https://juveriad.github.io/Newbie-Challenges/challenge-6/)
 
 [Challenge-7 : Single price grid component](https://juveriad.github.io/Newbie-Challenges/challenge-7/)
+
+[Challenge-8 : Single price grid component](https://juveriad.github.io/Newbie-Challenges/challenge-8/)
