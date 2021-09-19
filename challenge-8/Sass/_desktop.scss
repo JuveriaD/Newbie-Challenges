@@ -1,0 +1,61 @@
+@media screen and (min-width: 1300px) {
+  body {
+    .container {
+      flex-direction: row;
+
+      .logocontainer {
+        width: auto;
+        // margin: 0px 0px 16% 0px;
+      }
+      .logocontainer img {
+        width: 260px;
+        margin: -115% 0% 0% -5%;
+      }
+      .imgcontainer img {
+        width: 700px;
+        margin: 21% 0% 0% -36%;
+      }
+
+      .firstdiv {
+        margin: 75px 8px 0px -150px;
+        text-align: justify;
+        width: fit-content;
+
+        p {
+          width: 490px;
+          padding: 3% 3%;
+        }
+        h1 {
+          margin: 19% 22% 0px 0px;
+          width: 351px;
+        }
+        button[type="submit"] {
+          margin: 2% 54% 20% 0%;
+          width: 200px;
+          padding: 16px;
+          font-size: 18px;
+        }
+      }
+      .seconddiv {
+        margin: 5% 0% 0% 80%;
+      }
+    }
+  }
+  footer {
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 390px 380px;
+
+    .container {
+      .firstdiv {
+        margin: 0px 8px 0px 0px;
+      }
+    }
+  }
+}
