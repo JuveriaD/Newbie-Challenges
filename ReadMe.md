@@ -1,5 +1,4 @@
-# Frontend Mentor Challenges for newbie's 
-## Practised Flexbox, Positioning MediaQueries and some basic HTML & CSS.
+# Frontend Mentor Challenges for newbie's ### Practised Flexbox, Positioning MediaQueries and some basic HTML & CSS.
 
 [Challenge-1 : Order Summary Card Component](https://juveriad.github.io/Newbie-Challenges/challenge-1/)
 
